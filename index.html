@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Text2Scene: Generating Compositional Scenes from Textual Descriptions</title>
+    <link href="./css/text2scene_page.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="background-color: #e0e0e0;" data-gr-c-s-loaded="true">
+    <center>
+    <table width="50%" border="0" style="background-color: #ffffff; outline: #000000 dotted 2px; padding-left: 20px; padding-right: 20px; box-shadow: 10px 10px 10px #ccc;">
+      <tbody>
+        <tr>
+          <td align="center">
+            <center>
+              <br>
+                <font size="+3">Text2Scene: Generating Compositional Scenes from Textual Descriptions</font>
+            </center>  
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center">
+            <br>
+              <a href="http://www.cs.virginia.edu/~ft3ex/">Fuwen Tan</a>, &nbsp; &nbsp;
+              <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sfeng/">Song Feng</a>, &nbsp; &nbsp;
+              <a href="http://vicenteordonez.com/">Vicente Ordonez</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br><center><b>CVPR 2019</b> <em style="color:#a00">(~Oral presentation)</em> </center></td>
+        </tr>
+
+        <tr>
+          <td align="center">
+              <br>
+              <center>
+              <img width="50%" src="./doc/header.jpg"><br><br>
+              Sample inputs (left) and outputs of our Text2Scene model (middle), 
+              along with ground truth reference scenes (right) for the generation of abstract scenes (top), 
+              object layouts (middle), and synthetic image composites (bottom).
+              </center>
+          </td>
+        </tr>
+  
+        <tr>
+          <td align="center">
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <center>
+                      <div style="width:100%; text-align:justify; vertical-align:top"><b>Abstract</b><br><br>
+                        In this paper, we propose Text2Scene, 
+                        a model that generates various forms of compositional scene representations from natural language descriptions. 
+                        Unlike recent works, our method does NOT use Generative Adversarial Networks (GANs). 
+                        Text2Scene instead learns to sequentially generate objects and their attributes 
+                        (location, size, appearance, etc) at every time step by attending to different parts of the input text and the current status of the generated scene.
+                        We show that under minor modifications, the proposed framework can handle the generation of different forms of scene representations, including cartoon-like scenes, 
+                        object layouts corresponding to real images, and synthetic images. 
+                        Our method is not only competitive when compared with state-of-the-art GAN-based methods using automatic metrics and superior based on human judgments but also has the advantage of producing interpretable results.<br><br>
+                      <b>Links</b>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/1809.01110">Paper</a></li>
+                        <li><a href="https://github.com/uvavision/Text2Scene">Code</a></li>
+                      </ul>
+                      <b>Citing</b><br><br>
+                        If you find our paper/code useful, please consider citing:
+                        <pre class="citation">
+                            @inproceedings{TanCVPR2019,
+                              title     = {Text2Scene: Generating Compositional Scenes from Textual Descriptions},
+                              author    = {Fuwen Tan and Song Feng and Vicente Ordonez},
+                              year      = {2019},
+                              booktitle = {CVPR}
+                            }
+                        </pre>
+                      </div>
+                      </center>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+  
+
+        <tr>
+            <td align="right">
+                <font size="-1">
+                    Inspired by the project page of <a href="http://www.connellybarnes.com/work/project_pages/image_perforation/">Image Perforation</a>.
+                </font>
+            </td>
+        </tr>  
+      </tbody>
+
+    </table>
+    </center>
+    
+  </body>
+
+</html>
